@@ -1,0 +1,76 @@
+# Platform Event Thinking
+
+## Real-Life Example: Student Registration System
+
+When a student registers for a course:
+
+- The student receives a confirmation email automatically
+- The admin dashboard updates the student count
+- The finance system generates the fee payment record
+- The course instructor gets notified about the new student
+
+One action triggers notifications and updates across multiple systems automatically.
+
+---
+
+# CLI Reflection
+
+Developers prefer command-line tools because they are faster, more powerful, and help automate repetitive tasks easily. CLI tools also improve productivity and allow developers to manage projects efficiently without navigating many screens.
+
+---
+
+# Search Reflection
+
+Fast and accurate search is important in enterprise systems because organizations handle huge amounts of data daily. Quick search helps users find the correct information faster, improves productivity, and supports better decision-making.
+
+---
+
+# GitHub Submission
+
+## Folder Structure
+
+```bash
+/light-completion-day/
+    README.md
+```
+
+---
+
+# README.md
+
+## Modules Completed
+- SOQL Basics
+- Apex Triggers
+- Salesforce Automation
+- CLI Basics
+- Search Concepts
+
+---
+
+## One Learning From Each Module
+
+| Module | Learning |
+|---|---|
+| SOQL | Learned how to retrieve Salesforce data using queries |
+| Apex Triggers | Learned how automation works on record events |
+| Salesforce Automation | Understood Flow vs Trigger concepts |
+| CLI Basics | Learned how command-line tools improve productivity |
+| Search Concepts | Learned why fast search is important in enterprise systems |
+
+---
+
+## One Doubt / Question
+
+How do large enterprise systems handle millions of trigger events without affecting performance?
+
+---
+
+## Screenshot of Trailhead Progress
+
+Add your Trailhead progress screenshot here.
+
+```md
+![Trailhead Progress](screenshot.png)
+```
+
+---

@@ -1,0 +1,71 @@
+# Day 12 - Salesforce DX & GitHub Workflow
+
+## 🚀 What is Salesforce DX?
+Salesforce DX (Developer Experience) is a modern development approach for Salesforce that focuses on:
+- Source-driven development
+- Version control integration
+- Team collaboration
+- Automation and CI/CD workflows
+
+It helps developers build, test, and deploy Salesforce applications more efficiently.
+
+---
+
+## 💻 Why CLI Matters
+Salesforce CLI (Command Line Interface) improves developer productivity by allowing:
+- Faster project setup
+- Easy deployment and retrieval of metadata
+- Automation of repetitive tasks
+- Integration with CI/CD pipelines
+
+CLI makes development faster compared to manual UI-based work.
+
+---
+
+## 🔗 Why GitHub Matters
+GitHub is essential for:
+- Version control
+- Tracking code changes
+- Collaboration between developers
+- Backup and history of code
+
+It ensures every team member works on the same source code safely.
+
+---
+
+## 👥 Team Collaboration Problems
+Without proper tools like DX + GitHub:
+- Code conflicts occur frequently
+- Hard to track changes
+- Multiple developers overwrite each other’s work
+- Deployment becomes risky and inconsistent
+
+Salesforce DX + GitHub solves these issues using source control and structured workflows.
+
+---
+
+## 🏢 Enterprise Workflow Discussion
+In enterprise environments:
+- Developers use Salesforce DX for development
+- GitHub manages version control
+- CI/CD pipelines automate deployment
+- Sandboxes are used for testing
+- Production deployments are controlled and safe
+
+This ensures scalable and reliable development.
+
+---
+
+## 🧠 What I Learned (Salesforce CLI)
+Salesforce CLI enables:
+- Quick project creation
+- Org authentication
+- Metadata retrieval and deployment
+- Smooth integration with DX workflow
+
+It improves overall developer efficiency.
+
+---
+
+## ✍️ Reflection
+Salesforce DX combined with GitHub creates a powerful modern development workflow. It improves collaboration, reduces errors, and makes enterprise-level deployment more structured and reliable.

@@ -1,0 +1,127 @@
+# 🚀 CI/CD Workflow Using GitHub Actions for Salesforce
+
+## 📌 1. What is CI/CD?
+
+**CI/CD** stands for Continuous Integration and Continuous Deployment.
+
+---
+
+## 🔄 2. What is Continuous Integration (CI)?
+
+**Q:** What is Continuous Integration?  
+**A:** Continuous Integration is the process where developers frequently merge code into a shared repository, and the code is automatically tested and validated.
+
+**Q:** What happens in CI when code is pushed?  
+**A:** The code is automatically tested, validated, and checked for errors.
+
+---
+
+## 🚀 3. What is Continuous Deployment (CD)?
+
+**Q:** What is Continuous Deployment?  
+**A:** Continuous Deployment is the automated process of releasing code after successful testing.
+
+**Q:** What are the benefits of CD?  
+**A:** Faster deployments, reduced manual effort, and fewer deployment mistakes.
+
+---
+
+## ⚡ 4. Why is Deployment Workflow Important?
+
+**Q:** Why is a deployment workflow important?  
+**A:** It reduces errors, improves collaboration, speeds up delivery, ensures code quality, and maintains consistency.
+
+---
+
+## ❌ 5. Problems Without Version Control
+
+**Q:** What happens without version control systems like GitHub?  
+**A:**  
+- Code overwriting  
+- Lost changes  
+- Poor collaboration  
+- No history tracking  
+- Deployment confusion  
+
+---
+
+## 🔧 6. GitHub, Salesforce DX & DevOps
+
+### 📁 GitHub
+Used for:
+- Code storage
+- Version control
+- Collaboration
+- Automation workflows
+
+---
+
+### ⚙️ Salesforce DX
+Helps developers:
+- Create scratch orgs
+- Manage metadata
+- Automate deployments
+- Improve development workflow
+
+---
+
+### 🔄 DevOps
+DevOps combines:
+- Development
+- Operations
+- Automation
+
+**Goal:** Faster and more reliable software delivery
+
+---
+
+## 🏢 7. Enterprise Deployment Risks
+
+**Risks include:**
+- Production downtime  
+- Security issues  
+- Failed deployments  
+- Data loss  
+- Merge conflicts  
+
+**Solutions via CI/CD:**
+- Automated testing  
+- Code validation  
+- Approval workflows  
+- Rollback support  
+
+---
+
+## 🔄 8. What is GitHub Actions?
+
+GitHub Actions is a CI/CD automation tool used to:
+- Run tests
+- Deploy code
+- Automate workflows
+- Validate builds
+
+---
+
+## 📂 9. Example GitHub Actions Workflow (Salesforce CI)
+
+```yaml
+name: Salesforce CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Salesforce CLI
+        run: npm install sfdx-cli --global
+
+      - name: Run Apex Tests
+        run: sfdx force:apex:test:run --resultformat human

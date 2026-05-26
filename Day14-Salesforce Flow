@@ -1,0 +1,95 @@
+# 📘 Salesforce Flow Assignment
+
+---
+
+# 🧠 1. Introduction to Salesforce Flow Builder
+
+## 📌 Key Concepts
+- Flow is a declarative automation tool in Salesforce  
+- It helps automate business processes without code  
+- Flow Builder is the interface used to create flows  
+- It uses elements like actions, decisions, and loops  
+
+## ✍️ Notes (What Flow Builder Does)
+Salesforce Flow Builder allows users to design automation visually. It helps connect data and logic without writing Apex code. Flows can be triggered automatically or manually based on business needs.
+
+## ❓ Q&A
+
+### Q1: What is Salesforce Flow Builder?
+**A:** Salesforce Flow Builder is a tool used to create automated business processes without coding. It provides a visual interface to design logic using drag-and-drop elements. It is widely used for process automation.
+
+### Q2: What are the main components of Flow?
+**A:** Flow consists of elements like decisions, assignments, loops, and actions. These components help define logic and process flow. They work together to automate tasks efficiently.
+
+---
+
+# ⚙️ 2. Salesforce Flow Crash Course (Automation Basics)
+
+## 📌 Key Concepts
+- Flow replaces Workflow Rules and Process Builder  
+- Used for automating repetitive tasks  
+- Can run in background or screen-based mode  
+- Supports complex logic without Apex  
+
+## ✍️ Notes (Automation Understanding)
+Salesforce Flow is the future of automation in Salesforce. It allows users to automate tasks like record updates, approvals, and notifications. It reduces manual work and improves efficiency in business processes.
+
+## ❓ Q&A
+
+### Q1: Why is Flow important in Salesforce?
+**A:** Flow is important because it automates business processes without code. It replaces older tools like workflow rules. It improves efficiency and reduces manual effort.
+
+### Q2: What types of Flow exist?
+**A:** There are screen flows and auto-launched flows. Screen flows require user interaction, while auto-launched flows run in the background. Both are used depending on business needs.
+
+---
+
+# 🔁 3. Advanced Flow Concepts (Loops, Decisions, Apex Integration)
+
+## 📌 Key Concepts
+- Decision elements control branching logic  
+- Loops help process multiple records  
+- Apex can be integrated for complex logic  
+- Used for advanced automation scenarios  
+
+## ✍️ Notes (Advanced Flow Understanding)
+Advanced Flow allows handling complex business logic. Decision elements help route processes based on conditions. Loops process multiple records one by one. Apex integration extends Flow capabilities for advanced use cases.
+
+## ❓ Q&A
+
+### Q1: What is the use of Decision in Flow?
+**A:** Decision elements are used to create branching logic in Flow. They help the Flow take different paths based on conditions. This makes automation flexible and dynamic.
+
+### Q2: Why are loops used in Flow?
+**A:** Loops are used to process multiple records in a collection. They allow repeating actions for each record. This helps handle bulk data efficiently.
+
+---
+
+# 🏢 4. Flow Governance (Important Concept)
+
+## 📌 Key Concepts
+- Ensures scalable and maintainable flows  
+- Avoids performance issues  
+- Encourages best practices  
+- Helps in structured automation design  
+
+## ✍️ Notes (Governance Understanding)
+Flow governance ensures that all automation is well-structured and optimized. Without governance, flows become complex and difficult to manage. It helps maintain performance and improves long-term system stability.
+
+## ❓ Q&A
+
+### Q1: Why is Flow governance important?
+**A:** Flow governance is important because it ensures flows are efficient and maintainable. It avoids performance issues and reduces system complexity. It also improves scalability.
+
+### Q2: What are Flow best practices?
+**A:** Best practices include keeping flows simple, using subflows, avoiding unnecessary loops, and proper documentation. Testing before deployment is also important. These practices ensure reliability.
+
+---
+
+# 🧾 5. Revision Summary
+
+- Flow is used for automation without code  
+- It replaces legacy automation tools  
+- Decision and loops control logic  
+- Advanced flows handle complex scenarios  
+- Governance ensures performance and structure  
